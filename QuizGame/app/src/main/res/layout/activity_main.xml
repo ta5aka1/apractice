@@ -33,7 +33,9 @@
             android:layout_weight="1"
             android:background="#FBA848"
             android:textColor="#FFFFFF"
-            android:textSize="30dp" />
+            android:textSize="30dp"
+            android:onClick="onClick"
+            />
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -43,6 +45,7 @@
             android:background="#F27398"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
+            android:onClick="onClick"
             />
         <Button
             android:layout_width="match_parent"
@@ -53,6 +56,7 @@
             android:background="#363947"
             android:textColor="#FFFFFF"
             android:textSize="30dp"
+            android:onClick="onClick"
             />
 
     </LinearLayout>
