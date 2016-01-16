@@ -1,5 +1,6 @@
 package com.example.tasakai.quizgame;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         switch (v.getId()) {
             case R.id.button_normal:
                 Toast.makeText(this, "ノーマルがタッチされた！", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(MainActivity.this, StageSelect.class);
+                startActivity(intent);
                 break;
             case R.id.button_random:
                 Toast.makeText(this, "ランダムがタッチされた！", Toast.LENGTH_SHORT).show();

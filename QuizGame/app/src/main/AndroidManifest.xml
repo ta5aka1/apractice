@@ -17,6 +17,8 @@
         </activity>
         <activity android:name=".StageSelect" >
         </activity>
+        <activity android:name=".MainGame" >
+        </activity>
     </application>
 
 </manifest>
