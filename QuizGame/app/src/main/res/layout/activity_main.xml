@@ -47,17 +47,6 @@
             android:textSize="30dp"
             android:onClick="onClick"
             />
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TIME ATTACK"
-            android:id="@+id/button_time"
-            android:layout_weight="1"
-            android:background="#363947"
-            android:textColor="#FFFFFF"
-            android:textSize="30dp"
-            android:onClick="onClick"
-            />
 
     </LinearLayout>
 </LinearLayout>

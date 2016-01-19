@@ -27,9 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 intent = new Intent(MainActivity.this, RandomGame.class);
                 startActivity(intent);
                 break;
-            case R.id.button_time:
-                Toast.makeText(this, "タイムアタックがタッチされた！", Toast.LENGTH_SHORT).show();
-                break;
         }
     }
 }
